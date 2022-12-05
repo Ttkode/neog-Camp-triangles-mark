@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+:root{
+    --primary-color : #ade0ff;
+    --secondary-color: #302754;
+    font-family: 'Anton', sans-serif;
+
+}
+
+body{
+    background-color: var(--secondary-color);
+    margin: 0;
+    text-align: center;
+}
+
+.nav-bar {
+    text-align: right;
+    width: 100%;
+    height: 3vw;
+    margin-bottom: 2%;
+}
+
+.nav-pills{
+    font-size: medium;
+}
+
+.heading{
+    font-family: 'Anton', sans-serif;
+    display: block;
+    text-align:left;
+    padding: 1% 2%;
+}
+
+header{
+    background-color: var(--primary-color);
+}
+
+.link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    display: inline;
+    padding-right: 1.5%;
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+.question-container{
+    margin: 2.5%;
+    font-size: larger;
+}
+
+#output-div{
+    padding: 1%;
+    font-size: larger;
+}
+
+button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0.8%;
+    font-size: medium;
+    border-radius: 0.8rem;
+    margin: 2%;
+}
+
+label{
+    display: block;
+    font-size: larger;
+    margin: 2%;
+}
+
+input{
+    padding: 0.8%;
+    border: 1.5px solid black;
+    border-radius: 0.8rem;
+}
+
+h2{
+    margin: 3%;
+}
+
+button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 550;
+}
+
+.nav-link-hover:hover{
+    color: black;
+}

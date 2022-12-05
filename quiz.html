@@ -5,28 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <nav class="navigation container">
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
+<header>
+    <h1 class="heading">FUN ANGLES OF TRIANGLE</h1>
+    <nav class="nav-bar">
                 <a class="link link-active nav-link-hover" href="quiz.html">Quiz</a>
-            </li>
-            <li class="list-item-inline">
                 <a class="link nav-link-hover" href="isTriangle.html">Is Triangle?</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="lin nav-link-hover" href="hypotenuse.html">Hypotenuse</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link nav-link-hover" href="triangleArea.html">Area of Triangle?</a>
-            </li>
+ 
+                <a class="link nav-link-hover" href="hypotenuse.html">Hypotenuse</a>
+            
+                <a class="link nav-link-hover" href="areaOfTriangle.html">Area Of Triangle</a>
         </ul>
     </nav>
-
+</header>
+    
     <h1>Triangle Quiz</h1>
     <h2>Each correct answer holds 1 point</h2>
-
+    
     <form class="quiz-form">
         <div class="question-container">
             <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
@@ -42,24 +39,60 @@
         </div>
 
         <div class="question-container">
+            <p>What is the angle called if it is less than 90°?</p>
+            <label>
+                <input type="radio" name="question3" value="obtuse" /> obtuse
+            </label>
+            <label>
+                <input type="radio" name="question3" value="straight angle" /> straight angle
+            </label>
+            <label>
+                <input type="radio" name="question3" value="acute" /> acute
+            </label>
+        </div>
+
+        <div class="question-container">
             <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
             <label>
-                <input type="radio" name="question2" value="obtuse" /> obtuse 
+                <input type="radio" name="question3" value="obtuse" /> obtuse 
             </label>
             <label>
-                <input type="radio" name="question2" value="acute" /> acute
+                <input type="radio" name="question3" value="acute" /> acute
             </label>
             <label>
-                <input type="radio" name="question2" value="right-angled" /> right-angled
+                <input type="radio" name="question3" value="right-angled" /> right-angled
+            </label>
+        </div>
+
+        <div class="question-container">
+            <p>What is the triangle called if two of its sides are same?</p>
+            <label>
+                <input type="radio" name="question4" value="isosceles" /> isosceles
+            </label>
+            <label>
+                <input type="radio" name="question4" value="equilateral" /> equilateral
+            </label>
+            <label>
+                <input type="radio" name="question4" value="scalene" /> scalene
+            </label>
+        </div>
+
+        <div class="question-container">
+            <p>If a triangle has sides equal to 5cm, 4cm and 6cm, then find its perimeter.</p>
+            <label>
+                <input type="radio" name="question5" value="17cm" /> 17cm
+            </label>
+            <label>
+                <input type="radio" name="question5" value="4cm" /> 4cm
+            </label>
+            <label>
+                <input type="radio" name="question5" value="15cm" /> 15cm
             </label>
         </div>
 
     </form>
-
     <button id="submit-ans-btn">Submit Answers</button>
-
     <div id="output-div"></div>
-
 </body>
 <script src="quiz.js" type="text/javascript"></script>
 </html>
