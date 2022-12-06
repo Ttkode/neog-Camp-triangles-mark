@@ -16,5 +16,5 @@ function displayArea(){
 
     outputDiv.innerText = "The area of triangle is " + area + "cm²";
 }
-
+}
 calculateAreaBtn.addEventListener("click", displayArea);
