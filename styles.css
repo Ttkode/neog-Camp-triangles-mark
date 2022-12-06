@@ -50,7 +50,9 @@ header{
 .question-container{
     margin: 2.5%;
     padding-top: 1%;
-    font-size: larger;
+    font-size: xx-large;
+    font-weight: bold;
+
 }
 
 #output-div{
@@ -72,7 +74,7 @@ button{
 
 label{
     display: block;
-    font-size: larger;
+    font-size: 80%;
     margin: 2%;
 }
 
@@ -80,6 +82,7 @@ input{
     padding: 0.8%;
     border: 1.5px solid black;
     border-radius: 0.8rem;
+
 }
 
 h2{
