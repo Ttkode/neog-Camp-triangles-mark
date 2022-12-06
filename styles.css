@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
 
 
 :root{
-    --primary-color : #ade0ff;
-    --secondary-color: #302754;
-    font-family: 'Anton', sans-serif;
+    --primary-color : #ffebaa;
+    --secondary-color: #bbaaff;
+    font-family: font-family: 'Josefin Slab', serif;
 
 }
 
